@@ -1,5 +1,5 @@
 # AppStream 2.0 Remote Programmatic Image Creation Script
-# Start script by using the following command ‘.\Create-Image.ps1 -SourceFile C:\Source\ApplicationList.csv -ComputerName [Image Name] -s3bucket genesis-appdeployment-ireland'
+# Start script by using the following command ‘.\Create-Image.ps1 -SourceFile C:\Source\ApplicationList.csv -ComputerName [Image Name] -s3bucket appdeployment'
 param(
     [Parameter(Mandatory = $true,
         HelpMessage = "Full path to CSV file EG: C:\Source\ApplicationList.csv")]
